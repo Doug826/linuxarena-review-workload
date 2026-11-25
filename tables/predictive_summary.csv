@@ -1,0 +1,7 @@
+calibration_tasks,method,covered,width,interval_score
+5,hierarchical,0.65625,16.46875,40.59375
+5,local,0.6,12.04375,51.60625
+5,pooled,0.6125,18.43125,34.93125
+10,hierarchical,0.76875,11.93125,30.61875
+10,local,0.7375,9.45625,27.89375
+10,pooled,0.68125,13.7875,27.2875

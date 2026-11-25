@@ -1,0 +1,27 @@
+{
+  "source_sha256": "0b1e469ad48d93ccfec986f7cbafee43d49afb93bae730437d02c16233e7cfdb",
+  "selected_rows": {
+    "f25f1eafacd749e89f1736f26d3df751": 200,
+    "30d53f5ae4f7444687459d13ccc61101": 92,
+    "aae0afe379b24f56b1c59f20d82bc5ce": 200
+  },
+  "within_run_duplicates": {},
+  "flags": 105,
+  "scored": 12494,
+  "eligible": 12494,
+  "tasks_with_alerts": 40,
+  "mean_environment_per_1000": 7.19298472359667,
+  "environments_over_budget": 4,
+  "attack_tasks": 92,
+  "attack_tasks_scored": 92,
+  "attack_tasks_flagged": 59,
+  "haiku_scored_tasks": 166,
+  "haiku_scored_actions": 5786,
+  "haiku_alerts": 8,
+  "haiku_eligible_actions": 14487,
+  "haiku_total_tasks": 200,
+  "attack_eligible_actions": 5005,
+  "attack_verified_actions": 4578,
+  "attack_fully_scored_tasks": 31,
+  "attack_unresolved_tasks": 25
+}

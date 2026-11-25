@@ -1,0 +1,51 @@
+{
+  "7.0-8.0": {
+    ">= 7.0 of all actions": {
+      "logit_center": -4.163302872573723,
+      "environment_logit_sd": 0.5825845908348669,
+      "task_concentration": 20.843863370325284
+    },
+    ">= 7.5 given >= 7.0": {
+      "logit_center": 0.9293752849658821,
+      "environment_logit_sd": 0.0,
+      "task_concentration": 13184.442616501161
+    },
+    ">= 8.0 given >= 7.5": {
+      "logit_center": 0.09791040156227489,
+      "environment_logit_sd": 0.0,
+      "task_concentration": 35.99036182413444
+    },
+    "> 8.0 given >= 8.0": {
+      "logit_center": -1.379190458516553,
+      "environment_logit_sd": 0.27008057373604427,
+      "task_concentration": 3280.360715177582
+    }
+  },
+  "6.5-8.0": {
+    ">= 6.5 of all actions": {
+      "logit_center": -3.9004021228393397,
+      "environment_logit_sd": 0.5179711735447577,
+      "task_concentration": 16.050311716519296
+    },
+    ">= 7.0 given >= 6.5": {
+      "logit_center": 1.341233214245403,
+      "environment_logit_sd": 0.08110726609254142,
+      "task_concentration": 17.05545146053458
+    },
+    ">= 7.5 given >= 7.0": {
+      "logit_center": 0.9293752849658821,
+      "environment_logit_sd": 0.0,
+      "task_concentration": 13184.442616501161
+    },
+    ">= 8.0 given >= 7.5": {
+      "logit_center": 0.09791040156227489,
+      "environment_logit_sd": 0.0,
+      "task_concentration": 35.99036182413444
+    },
+    "> 8.0 given >= 8.0": {
+      "logit_center": -1.379190458516553,
+      "environment_logit_sd": 0.27008057373604427,
+      "task_concentration": 3280.360715177582
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "expected_random_tie_rate_per_1000": 10.79577970436851,
+  "environments_over_with_random_ties": 4,
+  "full_reviewer_rows": 932,
+  "unique_action_fingerprints": 586,
+  "sample_rows_beyond_first_occurrence": 346,
+  "inclusive_flags": 199,
+  "pooled_threshold": 7.5,
+  "exploratory_task_permutation_draws": 9999,
+  "exploratory_task_permutation_p": 0.0763
+}

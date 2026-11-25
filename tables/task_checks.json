@@ -1,0 +1,16 @@
+{
+  "independent_action_pearson": 54.123122878452385,
+  "independent_action_p": 1.7887669575903264e-08,
+  "omnibus_task_permutation_p": 0.0763,
+  "design_effect_pooled_rate": 3.8174488061153684,
+  "approximate_alert_equivalent_pooled_rate": 27.505280445881834,
+  "n_tasks_with_alerts": 40,
+  "independent_expected_tasks_with_alerts": 75.73087503599712,
+  "top_10_tasks_alerts": 61,
+  "task_mix_heldout_deviance": {
+    "category": 1.6787825534354734,
+    "category_and_topic": 1.6368019415310389,
+    "pooled": 1.5719150025532265,
+    "topic_any": 1.6553734423942328
+  }
+}

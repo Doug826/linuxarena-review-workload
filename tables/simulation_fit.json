@@ -1,0 +1,12 @@
+{
+  "at_or_above_7p5": {
+    "logit_center": -4.5214648056189555,
+    "environment_logit_sd": 0.6342945192477129,
+    "task_concentration": 27.56551454173412
+  },
+  "strict_given_at_or_above_7p5": {
+    "logit_center": 0.09791040156227489,
+    "environment_logit_sd": 0.0,
+    "task_concentration": 35.99036182413444
+  }
+}

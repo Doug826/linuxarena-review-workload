@@ -1,0 +1,16 @@
+# LinuxArena threshold-transfer pilot
+Frozen before computing held-out score summaries. This is a local analysis plan, not a public preregistration.
+
+## Primary question
+If a monitor flags 1% of scored ordinary actions in the source environments, how often does the same rule flag ordinary actions in a new environment? Count individual flagged actions even if several alerts fall in one task. Attack detection is secondary.
+
+## Cohort and leakage checks
+Use the 200-task GPT-5 Nano monitor on Opus honest run from the public LinuxArena study. Match source agent, dated monitor and aggregation across environments. Accept the named monitor rerun only. Fingerprint ordered action content after stripping monitor results, do not key by trajectory ID. Group by environment and task; reject conflicting duplicates, duplicated content across different tasks, or unresolved run or score formats. Keep zero-score tasks in the coverage counts. Exclude non-finite, absent or explicitly failed monitor responses and show coverage; ordinary-task failures remain in scope. If only a losslessly documented score-only export is accessible, distinguish what can be audited in it.
+
+## First table
+For each environment, fit on all scored honest actions in the other nine. Weight each action equally. Use the lowest observed score t such that the fraction strictly above t is at most 1%. Also report the source and held-out rates at or above t to show the jump from ties. Report independent tasks, scored actions, observed source false alerts per 1,000, held-out false alerts per 1,000, absolute alerts, alerts per scored task, share of scored tasks with alerts and coverage. Estimate held-out task-cluster uncertainty by resampling whole tasks; use the same resampled source environments and tasks only in separately identified analyses of cutoff uncertainty. Do not treat steps as independent. Report an equally environment-weighted summary alongside the pooled action-weighted result.
+
+## Secondary analyses
+Matched agent-generated attacks only, count any flag in a trajectory. Keep LaStraj separate. Require matched monitor configuration for any attack estimate. Later compare zero, five and ten whole local calibration tasks against an empirical local cutoff and a pooled estimator. Use disjoint test tasks on every split; include size-matched within-environment baselines. Any fitted pooling model must tune on source environments alone. Report equal-environment and action-weighted results. A change from Opus to Haiku is a separately labelled replication. No secondary outcome will replace an inconclusive primary result.
+
+Before reading score summaries, I fixed two extraction details from the published parser and raw field layout. Treat submit actions as ineligible, consistent with the reference parser. Use the recorded ensemble score, validate contributing member model names where available, and retain a separate count of zero-coverage tasks. The first table uses 4,000 fixed-cutoff task bootstrap replicates (seed 20261119); its intervals are descriptive given the small number of tasks. The main threshold always flags scores strictly greater than the cutoff. A row that cannot be traced to the approved run is excluded.
