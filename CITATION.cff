@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite it as below."
+type: software
+title: "One cutoff, ten review workloads: review workload of an AI-control monitor across LinuxArena environments"
+authors:
+  - family-names: Christopher
+    given-names: Doug
+version: "1.0"
+date-released: 2026-11-25
+license: MIT
+repository-code: "https://github.com/Doug826/linuxarena-review-workload"
+keywords:
+  - AI control
+  - trusted monitoring
+  - audit budget
+  - LinuxArena
+references:
+  - type: data
+    title: "LinuxArena public data"
+    authors:
+      - name: "LinuxArena authors"
+    url: "https://huggingface.co/datasets/anonymouslinuxarena/linuxarena-public"
+    license: CC-BY-4.0

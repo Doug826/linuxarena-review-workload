@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw LinuxArena evaluation data downloaded during reproduction stays local
+sample.jsonl
+*.jsonl
+extra/
+
+# OS files
+.DS_Store
+Thumbs.db
